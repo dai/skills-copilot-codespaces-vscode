@@ -1,9 +1,4 @@
 function skillsmember() {
-  return {
-    restrict: 'E',
-    scope: {
-      member: '='
-    },
-    templateUrl: 'skills-member.html'
-  };
+    var skills = ["HTML", "CSS", "JavaScript"];
+    return skills;
 }
